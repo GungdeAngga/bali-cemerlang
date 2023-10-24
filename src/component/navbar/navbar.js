@@ -3,10 +3,9 @@ import React from 'react';
 const Navbar = () => {
   return (
     <div class="bg-blue-900 p-4 w-full">
-      <div class="container mx-auto flex items-center justify-between">
-      <a href="/" className="text-white font-bold text-xl">
-          My Website
-        </a>
+      <div class="container flex items-center justify-between">
+      <img src='/asset/logoWeb.png' alt='Logo'/>
+          
         <ul className="flex space-x-4">
           <li>
             <a href="/" className="text-white hover:text-gray-300">
@@ -36,7 +35,9 @@ const Navbar = () => {
               placeholder="Search"
               className="px-3 py-2 bg-white text-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
-            
+          <div className="absolute top-2 right-3">
+            <img src='/asset/search.png' alt='search'/>
+          </div>
           </div>
         </div>
       </div>
