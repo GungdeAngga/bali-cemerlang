@@ -37,7 +37,7 @@ const ShrinkingNavbar = () => {
       <div class="flex-relative p-9 pr-28">
       <div class="flex items-center">
         
-          <ul className="flex space-x-24">
+          <ul className="flex space-x-6 md:space-x-24">
           <li>
               <a href="/" className="text-white hover:text-gray-300">
               Home

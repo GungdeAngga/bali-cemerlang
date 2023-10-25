@@ -1,27 +1,36 @@
 import React, { useState } from 'react';
 
 const SearchImg = () => {
-  const [showInput, setShowInput] = useState(false);
+    const [isMenuOpen, setMenuOpen] = useState(false);
 
-  const toggleInput = () => {
-    setShowInput(!showInput);
-  };
+    const toggleMenu = () => {
+      setMenuOpen(!isMenuOpen);
+    };
+  
 
   return (
-    <div>
+    <div className="relative">
       <img
         src="/asset/search.png"
         alt="search"
-        onClick={toggleInput}
+        onClick={toggleMenu}
       />
 
-      {showInput ? (
-        <input
-          type="text"
-          placeholder="Enter text"
-          className="ml-4 border border-gray-300 p-2 rounded"
-        />
-      ) : null}
+{isMenuOpen && (
+        <div className="absolute mt-2 p-2 bg-white border border-gray-300 rounded shadow-lg">
+          <ul>
+            <li>
+              <a href="/" className="block px-4 py-2 hover:bg-blue-200">Item 1</a>
+            </li>
+            <li>
+              <a href="/" className="block px-4 py-2 hover:bg-blue-200">Item 2</a>
+            </li>
+            <li>
+              <a href="/" className="block px-4 py-2 hover:bg-blue-200">Item 3</a>
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 };
