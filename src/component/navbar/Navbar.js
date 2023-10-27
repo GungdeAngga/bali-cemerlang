@@ -1,11 +1,12 @@
-import React from 'react'
-import Navbar from '../../component/navbar/Navbar'
+import React from 'react';
+import ShrinkingNavbar from './ShrinkingNavbar';
 
-
-export default function LandingPage() {
+const Navbar = () => {
   return (
-    <div>
-        <Navbar/>
-    </div>
-  )
-}
+    <div class='w-full'>
+      <ShrinkingNavbar/>
+      </div>
+  );
+};
+
+export default Navbar;
