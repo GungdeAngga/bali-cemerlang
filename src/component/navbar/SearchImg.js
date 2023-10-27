@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SearchMenu from './SearchMenu';
 
 const SearchImg = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -17,18 +18,8 @@ const SearchImg = () => {
       />
 
 {isMenuOpen && (
-        <div className="absolute mt-2 p-2 bg-white border border-gray-300 rounded shadow-lg">
-          <ul>
-            <li>
-              <a href="/" className="block px-4 py-2 hover:bg-blue-200">Item 1</a>
-            </li>
-            <li>
-              <a href="/" className="block px-4 py-2 hover:bg-blue-200">Item 2</a>
-            </li>
-            <li>
-              <a href="/" className="block px-4 py-2 hover:bg-blue-200">Item 3</a>
-            </li>
-          </ul>
+        <div className="absolute pt-4 right-0">
+          <SearchMenu/>
         </div>
       )}
     </div>
