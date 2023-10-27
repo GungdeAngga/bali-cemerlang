@@ -22,7 +22,7 @@ const ShrinkingNavbar = () => {
   return (
     <div
     className={`fixed top-0 left-0 w-full transition-all duration-300 ${
-      isScrolled ? 'h-20 bg-red-700' : 'h-24 bg-VividRed'
+      isScrolled ? 'h-24 bg-VividRed' : 'h-24 bg-transparent'
     }`}
     >
       <div class='flex'>
