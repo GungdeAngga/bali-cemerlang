@@ -18,7 +18,7 @@ const SearchCities = () => {
 
   return (
     <div>
-      <label>Cities to Visit</label>
+      <label className='font-poppins'>Cities to Visit</label>
       <div className='relative block text-left'>
           <button onClick={toggleMenu} className="rounded-lg border-Gray65 border-2 w-60 text-left pl-2 hover:bg-gray-200 focus:outline-none">
               <img src='/asset/chevron-down.png' alt='bottomArrow' className='absolute right-0 top-1 pr-2'/>
@@ -32,7 +32,7 @@ const SearchCities = () => {
             {menuItems.map((item, index) => (
               <li key={index}>
                 <button
-                  className="block px-4 py-2 hover:bg-blue-200 w-full text-left"
+                  className="font-poppins block px-4 py-2 hover:bg-blue-200 w-full text-left"
                   onClick={() => selectItem(item)}
                 >
                   {item}

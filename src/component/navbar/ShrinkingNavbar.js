@@ -39,27 +39,27 @@ const ShrinkingNavbar = () => {
         
           <ul className="flex space-x-6 md:space-x-24">
           <li>
-              <a href="/" className="text-white hover:text-gray-300">
+              <a href="/" className="font-poppins text-white hover:text-gray-300">
               Home
               </a>
           </li>
           <li>
-              <a href="/" className="text-white hover:text-gray-300">
+              <a href="/" className="font-poppins text-white hover:text-gray-300">
               Packages
               </a>
           </li>
           <li>
-              <a href="/" className="text-white hover:text-gray-300">
+              <a href="/" className="font-poppins text-white hover:text-gray-300">
               news
               </a>
           </li>
           <li>
-              <a href="/" className="text-white hover:text-gray-300">
+              <a href="/" className="font-poppins text-white hover:text-gray-300">
               Gallery
               </a>
           </li>
           <li>
-              <a href="/" className="text-white hover:text-gray-300">
+              <a href="/" className="font-poppins text-white hover:text-gray-300">
               About Us
               </a>
           </li>

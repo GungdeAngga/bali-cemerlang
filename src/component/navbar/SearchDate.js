@@ -3,7 +3,7 @@ import React from 'react';
 const SearchDate = () => {
 
   return (
-    <div className="relative block text-left">
+    <div className="relative block text-left font-poppins">
         <label htmlFor="date">
         Departures in
         </label>
