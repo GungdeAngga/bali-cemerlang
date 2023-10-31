@@ -1,24 +1,32 @@
 import React from 'react'
 import TourImg from './TourImg'
 import FlightImg from './FlightImg'
+import { Link } from 'react-router-dom'
 
 export default function TourAndFlight() {
   return (
-    <div class='flex'>
-      <div class='basis-1/4'>
-        <div className='border-slate-500 h-28 border-2 rounded-lg shadow-lg bg-slate-50'>
+    <div class='flex justify-center item-center'>
+      <div class='basis-7/12'>
+        <div className='bg-LightGrayishViolet border-2 border-LightGrayishViolet h-36 rounded-lg shadow-lg'>
+          
           <div class='flex'>
             <div class='basis-1/2'>
-              <button className='basis-1/2'>
+              <Link to='/'>
                 <TourImg/>
-              </button>
+              </Link>
             </div>
+            
+            <div>
+              <img src='asset/Line2.png' alt='Tour' class='pt-7'/>
+            </div>
+
             <div class='basis-1/2'>
-              <button>
+              <Link to='/'>
                 <FlightImg/>
-              </button>
+              </Link>
             </div>
           </div>
+
         </div>
       </div>
     </div>

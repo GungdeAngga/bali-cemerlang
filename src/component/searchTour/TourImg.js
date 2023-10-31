@@ -1,15 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function TourImg() {
   return (
-    <div className='text-center'>
-        <Link to='/'>
-            <img src='asset/icon-park-solid_ferris-wheel.svg' alt='Tour'/>
-            <div>
-                <p>Tour</p>
-            </div>
-        </Link>
+    <div class='flex justify-center items-center h-28'>
+      <div class=''>
+        <img src='asset/icon-park-solid_ferris-wheel.png' alt='Tour'/>
+        <div class="absolute pt-3 px-3">
+          Tour
+        </div>
+      </div> 
     </div>
   )
 }
