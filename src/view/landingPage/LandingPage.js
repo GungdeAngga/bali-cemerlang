@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
-import TourAndFlight from '../../component/searchTour/TourAndFlight'
+import TourMenu from '../../component/searchTour/TourMenu'
+
 
 
 export default function LandingPage() {
@@ -17,7 +18,15 @@ export default function LandingPage() {
           </div>
       </div>
       <Navbar/>
-      <TourAndFlight/>
+      <TourMenu/>
+      <div class='flex justify-center item-center'>
+        <div class='text-center pt-20 w-4/12'>
+        <p className='font-bold'>Special Offer</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper nec sed ligula ac tellus senectus ut. Ac.</p>
+      </div>
+      </div>
+      
+
     </div>
   )
 }

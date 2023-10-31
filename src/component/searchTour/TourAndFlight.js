@@ -7,7 +7,7 @@ export default function TourAndFlight() {
   return (
     <div class='flex justify-center item-center'>
       <div class='basis-7/12'>
-        <div className='bg-LightGrayishViolet border-2 border-LightGrayishViolet h-36 rounded-lg shadow-lg'>
+        <div className='bg-LightGrayishViolet h-36 rounded-lg shadow-2xl'>
           
           <div class='flex'>
             <div class='basis-1/2'>
