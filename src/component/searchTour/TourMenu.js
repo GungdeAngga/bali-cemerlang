@@ -5,20 +5,18 @@ import SearchButtonTour from './SearchButtonTour'
 
 export default function TourMenu() {
   return (
-    <div class='-mt-32'>
-      <div class=''>
+    <div>
 
-        <div class=''>
-          <TourAndFlight/>
-          </div>
         <div class='-mt-14'>
           <SearchCity/>
+          </div>
+        <div class='-mt-[340px]'>
+          <TourAndFlight/>
         </div>
-        <div class='-mt-7'>
+        <div class='mt-[168px]'>
           <SearchButtonTour/>
         </div>
         
-      </div>
     </div>
   )
 }

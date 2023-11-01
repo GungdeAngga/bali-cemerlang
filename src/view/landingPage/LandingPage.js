@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
+import FlightMenu from '../../component/searchTour/FlightMenu'
 
 
 
@@ -19,6 +20,10 @@ export default function LandingPage() {
       </div>
       <Navbar/>
       <TourMenu/>
+      <div class='pt-60'>
+        <FlightMenu/>
+      </div>
+      
       <div class='flex justify-center item-center'>
         <div class='text-center pt-20 w-4/12'>
         <p className='font-bold'>Special Offer</p>

@@ -15,7 +15,7 @@ const SearchInput = () => {
     };
 
   return (
-    <div className="flex items-center justify-center pt-28">
+    <div className="flex items-center justify-center pt-28 h-36">
         <div class='flex items-center justify-center '>
             <img src="/asset/eva_search-fill.svg" alt="search" class='absolute pl-28'/>
         </div>
