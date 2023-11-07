@@ -1,12 +1,13 @@
 import React from 'react'
-import SearchInput from './SearchInput'
+import SearchMenu from '../navbar/SearchMenu'
+
 
 export default function SearchCity() {
   return (
     <div class='flex justify-center item-center'>
       <div class='w-[1590px]'>
         <div class='h-60 bg-LightGrayishViolet rounded-lg shadow-lg'>
-          <SearchInput/>
+          <SearchMenu/> {/*change search menu style*/}
         </div>
       </div>
     </div>
