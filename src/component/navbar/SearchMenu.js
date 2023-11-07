@@ -19,7 +19,7 @@ export default function SearchMenu() {
                         <SearchButton/>
                     </div>
                 </div>
-                <a href="/" class='text-VividRed'>More Options</a>
+                <a href="/" class='text-VividRed font-poppins'>More Options</a>
             </div>
         </div>
     </div>

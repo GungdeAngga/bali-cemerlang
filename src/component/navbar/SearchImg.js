@@ -19,7 +19,7 @@ const SearchImg = () => {
 
 {isMenuOpen && (
         <div className="absolute pt-4 right-0">
-          <SearchMenu/>
+          <SearchMenu/> {/*need to edit*/}
         </div>
       )}
     </div>
