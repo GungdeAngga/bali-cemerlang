@@ -14,7 +14,7 @@ const FlightFrom = () => {
       setMenuOpen(false);
     };
     
-    const menuItems = ["Item 1", "Item 2", "Item 3"];
+    const menuItems = ["Denpasar", "Badung", "Item 3"];
 
   return (
     <div class=''>
