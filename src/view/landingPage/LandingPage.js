@@ -1,9 +1,6 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
-import FlightMenu from '../../component/searchTour/FlightMenu'
-
-
 
 export default function LandingPage() {
   return (
