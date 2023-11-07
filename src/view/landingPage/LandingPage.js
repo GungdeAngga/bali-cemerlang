@@ -20,9 +20,6 @@ export default function LandingPage() {
       </div>
       <Navbar/>
       <TourMenu/>
-      <div class='pt-60'>
-        <FlightMenu/>
-      </div>
       
       <div class='flex justify-center item-center'>
         <div class='text-center pt-20 w-4/12'>
