@@ -17,17 +17,17 @@ const FlightTo = () => {
     const menuItems = ["Item 1", "Item 2", "Item 3"];
 
   return (
-     <div class=''>
+    <div class=''>
         <button onClick={toggleMenu} class='flex items-center h-16'> 
             <img src='/asset/home-line.png' alt='home' class='pr-5 pl-3'/>
-            <div class='flex flex-col text-left'>
+            <div class='flex flex-col text-left w-24'>
                 To
                 <div class='font-bold'>
                     {selectedItem ? selectedItem : "Select Cities"}
                 </div> {/*from back end*/}
             </div>
             <div class='flex items-center justify-center'>
-                <img src='/asset/arrow-drop-down-line.png' alt='dropdown' class='absolute items-end'/>
+                <img src='/asset/arrow-drop-down-line.png' alt='dropdown' class='absolute pl-72'/>
             </div>
         </button>
 

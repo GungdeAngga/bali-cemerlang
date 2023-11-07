@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function TourAndFlight() {
   return (
     <div class='flex justify-center item-center'>
-      <div class='basis-7/12'>
+      <div class='w-[1110px]'>
         <div className='bg-LightGrayishViolet h-36 rounded-lg shadow-2xl'>
           
           <div class='flex'>

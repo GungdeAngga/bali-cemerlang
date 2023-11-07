@@ -17,9 +17,8 @@ const SearchInput = () => {
   return (
     <div className="flex items-center justify-center pt-28 h-36">
         <div class='flex items-center justify-center '>
-            <img src="/asset/eva_search-fill.svg" alt="search" class='absolute pl-28'/>
+            <img src="/asset/eva_search-fill.svg" alt="search" class=''/>
         </div>
-        
 
         <input
             type="text"
@@ -27,8 +26,9 @@ const SearchInput = () => {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyPress={handleKeyPress} // Listen for the "Enter" key press
-            className="w-10/12 p-2 border border-gray-300 rounded-lg pl-24 h-16 text-Poppins text-xl"
+            className="w-[1325px] p-2 border border-gray-300 rounded-lg pl-24 h-16 text-Poppins text-xl"
         />
+        
     </div>
   )
 }
