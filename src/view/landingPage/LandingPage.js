@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
+import Promo from '../../component/promo/Promo'
 
 export default function LandingPage() {
   return (
@@ -26,6 +27,8 @@ export default function LandingPage() {
       </div>
       
 
+
+      <Promo/>
     </div>
   )
 }
