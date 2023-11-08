@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
+import SpecialOffer from '../../component/specialOffer/SpecialOffer'
 
 export default function LandingPage() {
   return (
@@ -17,14 +18,7 @@ export default function LandingPage() {
       </div>
       <Navbar/>
       <TourMenu/>
-      
-      <div class='flex justify-center item-center'>
-        <div class='text-center pt-20 w-4/12'>
-        <p className='font-bold'>Special Offer</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper nec sed ligula ac tellus senectus ut. Ac.</p>
-      </div>
-      </div>
-      
+      <SpecialOffer/>
 
     </div>
   )
