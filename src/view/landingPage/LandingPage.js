@@ -3,6 +3,7 @@ import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
 import OurPartner from '../../component/emailAndContact/OurPartner'
 import ContactUs from '../../component/emailAndContact/ContactUs'
+import EmailSub from '../../component/emailAndContact/EmailSub'
 
 export default function LandingPage() {
   return (
@@ -33,7 +34,7 @@ export default function LandingPage() {
 
 
     <OurPartner/>
-
+    <EmailSub/>
     <ContactUs/>
     </div>
   )
