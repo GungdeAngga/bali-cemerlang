@@ -4,6 +4,14 @@ import FooterSearch from './FooterSearch'
 import FooterInformation from './FooterInformation'
 
 export default function Footer() {
+    const openInstagram = () => {
+        window.open('https://www.instagram.com/balicemerlangtours/?hl=en', '_blank');
+      };
+
+    const openFacebook = () => {
+        window.open('https://www.facebook.com/balicemerlangtours/?locale=id_ID', '_blank');
+      };
+
   return (
     <div class='bottom-0 w-full bg-VividRed h-[480px]'>
         <div class='px-24 pt-24 pb-12'>
@@ -14,12 +22,12 @@ export default function Footer() {
                     <div class="flex items-center pt-6">
                         <ul className="flex space-x-6">
                         <li>
-                            <div class='w-6 h-6 bg-white flex items-center justify-center'>
+                            <div class='w-6 h-6 bg-white flex items-center justify-center' onClick={openInstagram}>
                                 <img src='/asset/instagram.png' alt='instagram' class='w-5 h-5'/>
                             </div>
                         </li>
                         <li>
-                            <div class='w-6 h-6 bg-white flex items-center justify-center'>
+                            <div class='w-6 h-6 bg-white flex items-center justify-center' onClick={openFacebook}>
                                 <img src='/asset/facebook-f.png' alt='facebook' class='w-5 h-5'/>
                             </div>
                         </li>

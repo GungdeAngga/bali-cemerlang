@@ -22,8 +22,10 @@ const SearchCities = () => {
         <label className='font-poppins text-xl'>Cities to Visit</label>
         <div className='block text-left'>
           <button onClick={toggleMenu} className="rounded-lg border-Gray65 border-2 w-[650px] h-16 text-left pl-2 hover:bg-gray-200 focus:outline-none">
-              <img src='/asset/chevron-down.png' alt='bottomArrow' className='absolute right-0 top-1 pr-2'/>
-          {selectedItem ? selectedItem : "Select Cities"}
+              <div class='flex'>
+                <img src='/asset/chevron-down.png' alt='bottomArrow' className='right-0 top-1 pr-2'/>
+                {selectedItem ? selectedItem : "Select Cities"}
+              </div>
           </button>
         </div>
       </div>
