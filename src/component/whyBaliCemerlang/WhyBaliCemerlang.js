@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WhyBaliCemerlang() {
   return (
-    <div class='flex items-center justify-center pt-12'>
+    <div class='flex items-center justify-center pt-16'>
         <div class='flex w-[1100px]'>
            <img src='./asset/Barong.png' alt='barong' class='px-10 text-4xl'/> 
            <div class='px-10'>

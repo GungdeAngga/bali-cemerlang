@@ -14,7 +14,7 @@ const ViewOffer = ({ images }) => {
   useEffect(() => {
     const timer = setInterval(() => {
       nextSlide();
-    }, 5000); // Auto-slide every 3 seconds (adjust the interval as needed)
+    }, 5000); // Auto-slide every 5 seconds (adjust the interval as needed)
 
     return () => {
       clearInterval(timer);
