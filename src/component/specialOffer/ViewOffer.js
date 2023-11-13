@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const ViewOffer = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,9 +11,19 @@ const ViewOffer = ({ images }) => {
     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      nextSlide();
+    }, 5000); // Auto-slide every 3 seconds (adjust the interval as needed)
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [currentIndex]);
+
   return (
-    <div className="relative w-[1700px] py-9">
-      <div className="overflow-x-hidden relative" style={{ width: `${100 * images.length / 3}%`}}>
+    <div className="relative py-9">
+      <div className="relative" style={{ width: `${100 * images.length / 3}%`}}>
         <div
           className="flex transition-transform duration-300 ease-in-out"
           style={{ transform: `translateX(-${(100 / (images.length / 3)) * currentIndex}%)` }}

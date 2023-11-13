@@ -32,7 +32,7 @@ export default function SpecialOffer() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper nec sed ligula ac tellus senectus ut. Ac.</p>
         </div>
 
-        <div class='w-[1700px]'>
+        <div class='w-[1700px] overflow-hidden'>
             <div class=''>
                 <ViewOffer images={images} />
             </div>
