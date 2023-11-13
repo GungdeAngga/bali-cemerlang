@@ -32,7 +32,7 @@ const ViewOffer = ({ images }) => {
             <div key={index} className="w-1/3 p-1">
               <img src={image} alt={`Image ${index}`} className="w-full" />
               <div className="">
-                <h2 className="text-red-500 text-2xl">Tour to Lempuyang Temple</h2>
+                <h2 className="text-red-500 text-2xl">Special Offer</h2>
                 <p className="text-red-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum a mattis platea sit velit feugiat.</p>
               </div>
 
