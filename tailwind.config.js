@@ -9,6 +9,8 @@ module.exports = {
         'Gray65': '#A6A6A6',
         'LightGrayishViolet': '#F8F7F9',
         'DarkGray': '#8D8D8D',
+        'LightShadeofGray': '#EEEEEE',
+        'DarkBlue': '#0057FF',
       },
       fontFamily: {
         poppins: 'Poppins',
