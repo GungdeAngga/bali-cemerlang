@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
+import SpecialOffer from '../../component/specialOffer/SpecialOffer'
 import WhyBaliCemerlang from '../../component/whyBaliCemerlang/WhyBaliCemerlang'
 import Promo from '../../component/promo/Promo'
 import OurPartner from '../../component/emailAndContact/OurPartner'
@@ -15,7 +16,7 @@ export default function LandingPage() {
       <div className="max-w-screen mx-auto">
         <img src='/asset/background.png' alt='background' className='w-full bg-cover'/>
           <div>
-            <div className="absolute top-3/4 left-0 w-full h-1/5 flex items-center justify-center">
+            <div className="absolute top-[700px] left-0 w-full h-44 flex items-center justify-center">
               <div className="text-white p-4 text-4xl font-bold font-poppins">
                 BOOK A UNIQUE EXPERIENCE ON BALI CEMERLANG TOURS TODAY
               </div>
@@ -24,36 +25,13 @@ export default function LandingPage() {
       </div>
       <Navbar/>
       <TourMenu/>
-      
-      <div class='flex justify-center item-center'>
-        <div class='text-center pt-20 w-4/12'>
-        <p className='font-bold'>Special Offer</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper nec sed ligula ac tellus senectus ut. Ac.</p>
-      </div>
-      </div>
-      
-
-
+      <SpecialOffer/>
       <WhyBaliCemerlang/>
-
-
-
       <Promo/>
-
-
-
-
-
-    <OurPartner/>
-    <EmailSub/>
-    <ContactUs/>
-
-
-
+      <OurPartner/>
+      <EmailSub/>
+      <ContactUs/>
       <Footer/>
-
-
-
     </div>
   )
 }
