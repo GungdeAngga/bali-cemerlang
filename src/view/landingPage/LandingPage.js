@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
+import Footer from '../../component/footer/Footer'
 
 export default function LandingPage() {
   return (
@@ -26,6 +27,13 @@ export default function LandingPage() {
       </div>
       
 
+
+
+
+
+
+
+      <Footer/>
     </div>
   )
 }
