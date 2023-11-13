@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from '../../component/navbar/Navbar'
 import TourMenu from '../../component/searchTour/TourMenu'
+import WhyBaliCemerlang from '../../component/whyBaliCemerlang/WhyBaliCemerlang'
 import Promo from '../../component/promo/Promo'
 import OurPartner from '../../component/emailAndContact/OurPartner'
 import ContactUs from '../../component/emailAndContact/ContactUs'
 import EmailSub from '../../component/emailAndContact/EmailSub'
 import Footer from '../../component/footer/Footer'
+
 
 export default function LandingPage() {
   return (
@@ -32,6 +34,9 @@ export default function LandingPage() {
       
 
 
+      <WhyBaliCemerlang/>
+
+
 
       <Promo/>
 
@@ -46,6 +51,7 @@ export default function LandingPage() {
 
 
       <Footer/>
+
 
 
     </div>
