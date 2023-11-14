@@ -59,8 +59,8 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div class='flex items-center justify-center'>
-            <img src='/asset/line1.png' alt='line' class='w-[1711px]'/>
+        <div class='flex items-center justify-center px-24'>
+            <img src='/asset/line1.png' alt='line' class='w-full'/>
         </div>
         <p class='text-white text-right pr-[96px]'>created with ♥ by cvmaiharta</p>
         

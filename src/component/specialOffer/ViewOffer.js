@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const ViewOffer = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,16 +10,6 @@ const ViewOffer = ({ images }) => {
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      nextSlide();
-    }, 5000); // Auto-slide every 5 seconds (adjust the interval as needed)
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, [currentIndex]);
 
   return (
     <div className="relative py-9">
