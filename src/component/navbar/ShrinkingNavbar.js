@@ -31,7 +31,7 @@ const ShrinkingNavbar = () => {
               </li>
               <li>
                   <a href="/" className="font-poppins text-white hover:text-gray-300">
-                  news
+                  News
                   </a>
               </li>
               <li>
