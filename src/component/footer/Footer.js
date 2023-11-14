@@ -13,8 +13,8 @@ export default function Footer() {
       };
 
   return (
-    <div class='bottom-0 w-full bg-VividRed h-[480px]'>
-        <div class='px-24 pt-24 pb-12'>
+    <div class='bottom-0 w-full bg-VividRed h-[430px]'>
+        <div class='px-24 pt-16 pb-12'>
             <div class='flex flex-row'>
                 <div class='w-[650px]'>
                     <img src='/asset/logoWeb.png' alt='Logo' class='w-[39px] h-[39px]'/>
@@ -62,7 +62,7 @@ export default function Footer() {
         <div class='flex items-center justify-center px-24'>
             <img src='/asset/line1.png' alt='line' class='w-full'/>
         </div>
-        <p class='text-white text-right pr-[96px]'>created with ♥ by cvmaiharta</p>
+        <p class='text-white text-right pr-[96px] pt-5'>created with ♥ by cvmaiharta</p>
         
     </div>
   )
