@@ -26,7 +26,7 @@ const images = [
 export default function SpecialOffer() {
     
   return (
-    <div class='flex flex-col items-center'>
+    <div class='flex flex-col items-center '>
         <div class='text-center pt-20 w-[620px]'>
             <p className='font-bold'>Special Offer</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper nec sed ligula ac tellus senectus ut. Ac.</p>

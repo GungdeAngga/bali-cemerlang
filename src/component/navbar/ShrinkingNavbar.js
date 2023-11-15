@@ -25,7 +25,7 @@ const ShrinkingNavbar = () => {
                   </a>
               </li>
               <li>
-                  <a href="/" className="font-poppins text-white hover:text-gray-300">
+                  <a href="/Packges" className="font-poppins text-white hover:text-gray-300">
                   Packages
                   </a>
               </li>
