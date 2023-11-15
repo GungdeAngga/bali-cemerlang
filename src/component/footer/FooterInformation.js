@@ -3,10 +3,14 @@ import React from 'react'
 export default function FooterInformation() {
     const email = 'info@balicemerlangtours.com';
     const phoneNumber = '628113971099';
-    const placeName = 'Bali Cemerlang Tours'; // Replace with the actual place name or address
+    const BaliCemerlangRenon = 'Bali Cemerlang Tours in Renon'; // Replace with the actual place name or address
+    // const BaliCemerlangKuta = 'Bali Cemerlang Tours in Kuta';
 
-    const encodedPlace = encodeURIComponent(placeName);
-    const googleMapsURL = `https://www.google.com/maps/search/?api=1&query=${encodedPlace}`;
+    const encodedPlace1 = encodeURIComponent(BaliCemerlangRenon);
+    const googleMapsURL1 = `https://www.google.com/maps/search/?api=1&query=${encodedPlace1}`;
+
+    // const encodedPlace2 = encodeURIComponent(BaliCemerlangKuta);
+    // const googleMapsURL2 = `https://www.google.com/maps/search/?api=1&query=${encodedPlace2}`;
     
   return (
     <div class='w-72'>
@@ -29,7 +33,9 @@ export default function FooterInformation() {
             </div>
             <div class='text-white pt-5'>
                 <p>Denpasar ID</p> 
-                <a href={googleMapsURL} target="_blank" rel="noopener noreferrer">Jl. Tukad Ayung No.5 Denpasar - Bali</a>
+                <a href={googleMapsURL1} target="_blank" rel="noopener noreferrer">Jl. Tukad Ayung No.5, Denpasar - Bali</a><br/>
+                {/* <p>Kuta ID</p>
+                <a href={googleMapsURL2} target="_blank" rel="noopener noreferrer">Jl. By Pass Ngurah Rai Komplek Pertokoan Segi Tiga Mas No 25, Kuta - Bali</a> */}
             </div>
         </div>
     </div>
