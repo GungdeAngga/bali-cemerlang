@@ -3,7 +3,7 @@ import React from 'react'
 export default function Promo() {
   return (
     <div class='flex flex-col items-center'>
-        <div class='text-center pt-20 w-[620px]'>
+        <div class='text-center pt-20 w-full'>
             <p className='font-bold'>Promo</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper nec sed ligula ac tellus senectus ut. Ac.</p>
         </div>
