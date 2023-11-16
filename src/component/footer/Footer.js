@@ -44,7 +44,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div class='flex pl-72'>
+                <div class='absolute right-[59px] flex'>
                     <div class='w-[300px]'>
                     <FooterAboutUs/>
                     </div>
@@ -59,7 +59,7 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div class='flex items-center justify-center px-24'>
+        <div class='flex items-center justify-center px-24 pt-20'>
             <img src='/asset/line1.png' alt='line' class='w-full'/>
         </div>
         <p class='text-white text-right pr-[96px] pt-5'>created with ♥ by cvmaiharta</p>
