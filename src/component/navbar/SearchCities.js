@@ -17,8 +17,8 @@ const SearchCities = () => {
   const menuItems = ["Item 1", "Item 2", "Item 3"];
 
   return (
-    <div class='flex justify-center items-center h-60'>
-      <div class='w-[650px]'>
+    <div class='w-[800px] h-60 bg-LightGrayishViolet rounded-xl'>
+      <div class='flex flex-col justify-center items-cente p-16 pt-[65px]'>
         <label className='font-poppins text-xl'>Cities to Visit</label>
         <div className='block text-left'>
           <button onClick={toggleMenu} className="rounded-lg border-Gray65 border-2 w-[650px] h-16 text-left pl-2 hover:bg-gray-200 focus:outline-none">

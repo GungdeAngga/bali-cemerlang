@@ -14,12 +14,13 @@ const SearchDate = () => {
   // };
 
   return (
-    <div className="flex justify-center items-center h-60">
-      <div className="block text-left font-poppins w-[650px]">
-         <label class="text-xl">
+    <div className="w-[800px] h-60 bg-LightGrayishViolet rounded-xl">
+      <div className="flex flex-col p-16">
+         <label class="text-xl font-poppins">
         Departures in
         </label>
-            <input
+        <div>
+          <input
             type="date"
             placeholder="dd/mm/yyyy"
             className="rounded-lg border-Gray65 border-2 w-[650px] h-16 text-left pl-2 hover:bg-gray-200 focus:outline-none"
@@ -27,6 +28,7 @@ const SearchDate = () => {
             onChange={handleDateChange}
             />
             {/* <p className="mt-2">Formatted Date: {formatDate(selectedDate)}</p> data date dd/mm/yyyy*/}
+        </div> 
       </div>
     </div>
     );

@@ -6,7 +6,6 @@ import SearchDate from '../navbar/SearchDate'
 export default function SearchInput() {
   return (
     <div className="flex items-center justify-center">
-      <div className='w-[1590px]'>
 
         <div class='flex'>
           <div class='basis-1/2'>
@@ -18,8 +17,7 @@ export default function SearchInput() {
           </div>
 
         </div>
-         
-      </div>  
+           
     </div>
   )
 }

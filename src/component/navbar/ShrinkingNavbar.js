@@ -13,42 +13,44 @@ const ShrinkingNavbar = () => {
           </Link>
         </div>
 
-        <div class="flex-1"></div>
-
-        <div class="flex-relative p-9 pr-28">
+        <div class="absolute flex right-0 p-9 pr-28">
           <div class="flex items-center">
             
-              <ul className="flex space-x-6 lg:space-x-24">
+              <ul className="flex">
               <li>
-                  <a href="/" className="font-poppins text-white hover:text-gray-300">
+                  <a href="/" className="font-poppins text-white hover:text-gray-300 pl-16">
                   Home
                   </a>
               </li>
               <li>
-                  <a href="/Packges" className="font-poppins text-white hover:text-gray-300">
+                  <a href="/Packges" className="font-poppins text-white hover:text-gray-300 pl-16">
                   Packages
                   </a>
               </li>
               <li>
-                  <a href="/" className="font-poppins text-white hover:text-gray-300">
+                  <a href="/" className="font-poppins text-white hover:text-gray-300 pl-16">
                   News
                   </a>
               </li>
               <li>
-                  <a href="/" className="font-poppins text-white hover:text-gray-300">
+                  <a href="/" className="font-poppins text-white hover:text-gray-300 pl-16">
                   Gallery
                   </a>
               </li>
               <li>
-                  <a href="/AboutUs" className="font-poppins text-white hover:text-gray-300">
+                  <a href="/AboutUs" className="font-poppins text-white hover:text-gray-300 pl-16">
                   About Us
                   </a>
               </li>
             <li>
-              <SearchImg/>
+              <div class='pl-16'>
+                <SearchImg/>
+              </div>
             </li>
             <li>
-              <UserMenu/>
+              <div class='pl-16'>
+                <UserMenu/>
+              </div>
             </li>
               </ul>
 

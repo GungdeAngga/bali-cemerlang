@@ -1,7 +1,7 @@
 import React from 'react'
 import TourAndFlight from './TourAndFlight'
-import SearchCity from './SearchCity'
 import SearchButtonTour from './SearchButtonTour'
+import SearchInput from './SearchInput'
 
 export default function TourMenu() {
   return (
@@ -12,7 +12,7 @@ export default function TourMenu() {
           </div>
         </div>
         <div class='-mt-14'>
-          <SearchCity/>
+          <SearchInput/>
           </div>
         <div class='-mt-[340px]'>
           <TourAndFlight/>
