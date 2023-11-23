@@ -32,7 +32,8 @@ const SearchCities = () => {
       
 
       {isMenuOpen && (
-          <ul className="absolute mt-60 p-2 w-[650px] bg-white border border-gray-300 rounded shadow-lg">
+        <div class="pl-[64px] ">
+          <ul className="absolute -mt-[64px] p-2 w-[650px] z-30 bg-white border border-gray-300 rounded-lg shadow-lg">
             {menuItems.map((item, index) => (
               <li key={index}>
                 <button
@@ -44,6 +45,9 @@ const SearchCities = () => {
               </li>
             ))}
           </ul>
+        </div>
+
+          
         )}
 
 
