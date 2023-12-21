@@ -17,7 +17,7 @@ export default function TourMenu() {
         <div class='-mt-[340px]'>
           <TourAndFlight/>
         </div>
-        <div class='mt-[168px]'>
+        <div class='mt-[118px]'>
           <SearchButtonTour/>
         </div>
         

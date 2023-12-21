@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SearchPackage from '../Searchpackage/SearchPackage';
 
 const SearchImg = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ const SearchImg = () => {
 
 {isMenuOpen && (
         <div className="absolute pt-4 right-0">
-          search {/*need to edit*/}
+          <SearchPackage/> {/*need to edit*/}
         </div>
       )}
     </div>
