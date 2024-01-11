@@ -14,7 +14,7 @@ export default function PackagesContent() {
         <div class='font-bold text-5xl text-VividRed'>Packages</div>
       </div>
       <div className='flex justify-center pt-8'>
-        <div className='flex items-center justify-center w-[1500px] h-40 bg-LightGrayishViolet rounded-xl'>
+        <div className='flex items-center justify-center w-[1500px] h-40 bg-LightGrayishViolet rounded-xl shadow-xl'>
           <SearchPackage/>
         </div>
       </div>
