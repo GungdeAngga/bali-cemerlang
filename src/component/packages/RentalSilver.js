@@ -4,7 +4,7 @@ export default function RentalSilver() {
   return (
     <div className='w-[500px] h-[200px] shadow-xl rounded-lg bg-LightGrayishViolet'>
       <div className='flex flex-row'>
-        <div className='basis-2/3 pl-6 border-r-4 border-dashed h-[200px]'>
+        <div className='basis-2/3 pl-12 border-r-4 border-dashed h-[200px]'>
             <div className='font-bold text-2xl pt-3'>Silver Packages</div>
             <div className='flex pt-5'>
                 <div className='bg-VividRed w-12 h-12 flex items-center justify-center rounded-xl'><img src='./asset/placeMap.svg' alt='map' className='w-7 h-7'/></div>

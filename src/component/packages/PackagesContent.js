@@ -12,7 +12,7 @@ export default function PackagesContent() {
       <Link to='/'>
         <img src='./asset/back.svg' alt='back' className='pl-[120px]'/>
       </Link>
-      <div className='flex justify-center'>
+      <div className='flex justify-center -mt-12'>
         <img src='asset/icon-park-solid_ferris-wheel.png' alt='tour' className='pr-6'/>
         <div class='font-bold text-5xl text-VividRed'>Packages</div>
       </div>
