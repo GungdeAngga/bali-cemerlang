@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import SearchPackage from '../Searchpackage/SearchPackage'
+import RentalGold from './RentalGold'
+import RentalPlatinum from './RentalPlatinum'
+import RentalSilver from './RentalSilver'
 
 
 export default function PackagesContent() {
@@ -27,8 +30,16 @@ export default function PackagesContent() {
         
         
         <div class='pt-16 pb-36'>
-            <div class='flex flex-row px-28'>
-                
+            <div class='flex flex-row pl-24'>
+              <div className='basis-1/3'>
+                <RentalPlatinum/>
+              </div>
+              <div className='basis-1/3'>
+                <RentalGold/>
+              </div>
+              <div className='basis-1/3'>
+                <RentalSilver/>
+              </div>
             </div>
         </div>
         
