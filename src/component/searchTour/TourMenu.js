@@ -11,13 +11,13 @@ export default function TourMenu() {
             BOOK A UNIQUE EXPERIENCE ON BALI CEMERLANG TOURS TODAY
           </div>
         </div>
-        <div class='-mt-14'>
+        <div class='-mt-20'>
           <SearchInput/>
           </div>
-        <div class='-mt-[340px]'>
+        <div class='-mt-[310px]'>
           <TourAndFlight/>
         </div>
-        <div class='mt-[118px]'>
+        <div class='mt-[135px]'>
           <SearchButtonTour/>
         </div>
         
