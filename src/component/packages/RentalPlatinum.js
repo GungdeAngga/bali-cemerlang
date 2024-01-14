@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function RentalPlatinum() {
   const platinumPackagesData = [
@@ -43,7 +44,9 @@ export default function RentalPlatinum() {
         <div className='basis-1/3 pl-3'>
             <div className='flex flex-col items-center justify-center'>
                 <div className='font-bold text-2xl pt-6 pb-6'>{platinumPackages.time}</div>
+                <Link to={`/payment/${platinumPackages.id}`}>
                 <button className='w-28 h-14 bg-VividRed font-bold text-lg text-white rounded-xl'>Buy Tiket</button>
+                </Link>
             </div>
             <div className='text-gray-400 pt-4'>Price : <span className='text-VividRed font-bold'>Rp</span><span className='text-VividRed font-bold'>{platinumPackages.price}</span></div>
         </div>
